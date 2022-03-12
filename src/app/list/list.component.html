@@ -1,6 +1,6 @@
 <h2>Disciplinas cursadas: 5 ciclo</h2>
 
-<table border="1">
+<table class="table">
   <tr>
     <th>código</th>
     <th>nome</th>
@@ -10,7 +10,9 @@
 
   <tr *ngFor="let subject of list; index as i">
     <td>
-      <a [routerLink]="['/list', i]">{{ subject.codigo }}</a>
+      <a [routerLink]="['/list', i]" class="btn btn-link">{{
+        subject.codigo
+      }}</a>
     </td>
     <td>{{ subject.nome }}</td>
     <td>{{ subject.diaSemana }}</td>

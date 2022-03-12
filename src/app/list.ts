@@ -1,5 +1,15 @@
 export const listData = [
   {
+    codigo: 'ISW012A',
+    nome: 'Desenvolvimento para Dispositivos Móveis I',
+    diaSemana: 'SEGUNDA-FEIRA',
+    horario: '19h - 22h30min',
+    ementa:
+      'Introdução e conceitos. Recursos disponíveis para dispositivos móveis na linguagem de marcação de textos. Uso de algum ambiente de desenvolvimento: configuração do ambiente, emulação de dispositivos móveis nos computadores pessoais, interface gráfica, serviços disponíveis, banco de dados nos dispositivos. Desenvolvimento de aplicações que utilizam dados de geolocalização. Integração entre sistemas remotos',
+    objetivos:
+      'Apresentar as tecnologias de desenvolvimento de aplicativos para dispositivos móveis. Objetivos específicos.  Desenvolver aplicações para dispositivos móveis de plataformas não proprietárias',
+  },
+  {
     codigo: 'AGM004',
     nome: 'Negócios e Marketing e Eletrônicos',
     diaSemana: 'QUARTA-FEIRA',
@@ -20,6 +30,15 @@ export const listData = [
       'Desenvolver um site completo de e-commerce ou outro tipo de negócio na Internet usando uma linguagem apropriada a servidores, banco de dados e padrões de projeto. Objetivos específicos. Implementar softwares do lado servidor e com uso de uma linguagem de programação e de padrões de projetos mais usuais como MVC, DAO, Composite, Singleton, entre outros',
   },
   {
+    codigo: 'ITE004A',
+    nome: 'Tópicos Especiais em Sistemas para Internet II',
+    diaSemana: 'SEXTA-FEIRA',
+    horario: '19h - 22h30min',
+    ementa: 'Recursos e aplicações da tecnologia escolhida',
+    objetivos:
+      'Apresentar tecnologias ainda não estudadas ou aprofundar algum tema já visto definido pela coordenadoria do curso em cada unidade. Objetivos específicos. Estudar e aplicar tecnologias de uso corrente na região na qual o curso de insere ou de interesse para o desenvolvimento profissional dos estudantes ou desenvolver temas que aprofundem algum conhecimento já estudado',
+  },
+  {
     codigo: 'ISW011A',
     nome: 'Projeto de Prototipagem e Testes de Usabilidade',
     diaSemana: 'SÁBADO',
@@ -28,25 +47,6 @@ export const listData = [
       'Conceitos, métodos de prototipagem e ferramentas de teste de protótipos. Conceitos de usabilidade e estratégias de design. Métodos de teste de usabilidade. Planejamento de teste de usabilidade. Recrutamento. Projeto de usabilidade. Plano de teste. Sessão de teste de usabilidade. Análise de dados. Comunicação dos resultados. Variação de técnicas',
     objetivos:
       'Aprofundar os conceitos de design da usabilidade  e métodos de ensaio para mídia interativa. Usabilidade baseada na adaptação de design de interface para uma experiência do usuário mais eficaz.  Apresentar e usar diferentes métodos e ferramentas de prototipagem para explorar com os colegas de equipe ou clientes: conceitos de design, comunicação e testes de usabilidade. Objetivos específicos. Os estudantes serão capazes de criar uma série de protótipos para aplicações Web hipotéticas Criar um protótipo interativo baseando-se no protótipo de papel. Revisar protótipo. Projetar, conduzir e analisar testes de usabilidade com base: nos princípios estabelecidos, nos resultados de pesquisa com o protótipo e na teoria.  Desenvolver um plano de teste de usabilidade, recrutar os usuários apropriados, criar cenários robustos de tarefas, facilitar os testes,  analisar e comunicar os resultados do teste',
-  },
-  {
-    codigo: 'ISW012A',
-    nome: 'Desenvolvimento para Dispositivos Móveis I',
-    diaSemana: 'SEGUNDA-FEIRA',
-    horario: '19h - 22h30min',
-    ementa:
-      'Introdução e conceitos. Recursos disponíveis para dispositivos móveis na linguagem de marcação de textos. Uso de algum ambiente de desenvolvimento: configuração do ambiente, emulação de dispositivos móveis nos computadores pessoais, interface gráfica, serviços disponíveis, banco de dados nos dispositivos. Desenvolvimento de aplicações que utilizam dados de geolocalização. Integração entre sistemas remotos',
-    objetivos:
-      'Apresentar as tecnologias de desenvolvimento de aplicativos para dispositivos móveis. Objetivos específicos.  Desenvolver aplicações para dispositivos móveis de plataformas não proprietárias',
-  },
-  {
-    codigo: 'ITE004A',
-    nome: 'Tópicos Especiais em Sistemas para Internet II',
-    diaSemana: 'SEXTA-FEIRA',
-    horario: '19h - 22h30min',
-    ementa: 'Recursos e aplicações da tecnologia escolhida',
-    objetivos:
-      'Apresentar tecnologias ainda não estudadas ou aprofundar algum tema já visto definido pela coordenadoria do curso em cada unidade. Objetivos específicos. Estudar e aplicar tecnologias de uso corrente na região na qual o curso de insere ou de interesse para o desenvolvimento profissional dos estudantes ou desenvolver temas que aprofundem algum conhecimento já estudado',
   },
   {
     codigo: 'TES006A',
@@ -61,8 +61,8 @@ export const listData = [
   {
     codigo: 'TTG401A',
     nome: 'Projeto de Trabalho de Graduação em Sistemas para Internet I',
-    diaSemana: 'SÁBADO',
-    horario: '11h30min - 13h10min',
+    diaSemana: '"SÁBADO"',
+    horario: '"11h30min - 13h10min"',
     ementa:
       'Conceito de portfólio no âmbito da educação superior. Planejamento e organização de portfólios',
     objetivos:
