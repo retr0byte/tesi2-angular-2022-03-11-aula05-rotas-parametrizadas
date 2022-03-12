@@ -1,0 +1,19 @@
+<h2>Disciplinas cursadas: 5 ciclo</h2>
+
+<table border="1">
+  <tr>
+    <th>código</th>
+    <th>nome</th>
+    <th>dia da semana</th>
+    <th>horário</th>
+  </tr>
+
+  <tr *ngFor="let subject of list; index as i">
+    <td>
+      <a [routerLink]="['/list', i]">{{ subject.codigo }}</a>
+    </td>
+    <td>{{ subject.nome }}</td>
+    <td>{{ subject.diaSemana }}</td>
+    <td>{{ subject.horario }}</td>
+  </tr>
+</table>
