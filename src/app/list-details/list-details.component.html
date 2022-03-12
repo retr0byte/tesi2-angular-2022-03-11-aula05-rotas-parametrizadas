@@ -1,0 +1,27 @@
+<a [routerLink]="['/list']">Voltar</a>
+
+<h2>
+  Detalhes da disciplina: <span>"{{ subject.nome }}"</span>
+</h2>
+
+<p>
+  Código: <strong>{{ subject.codigo }}</strong>
+</p>
+
+<p>
+  Nome: <strong>{{ subject.nome }}</strong>
+</p>
+
+<p>
+  Dia da semana: <strong>{{ subject.diaSemana }}</strong>
+</p>
+
+<p>
+  Horário: <strong>{{ subject.horario }}</strong>
+</p>
+
+<h3>Ementa</h3>
+<p>{{ subject.ementa }}</p>
+
+<h3>Objetivos</h3>
+<p>{{ subject.objetivos }}</p>
